@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Recipients</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <h1>Enter Recipients and Names</h1>
+    <form action="" method="post">
+        <label for="recipients">Recipients (comma-separated):</label>
+        <input type="text" id="recipients" name="recipients" required><br><br>
+        
+        <label for="names">Names (comma-separated):</label>
+        <input type="text" id="names" name="names" required><br><br>
+        
+        <input type="submit" value="Next">
+    </form>
+</body>
+</html>
